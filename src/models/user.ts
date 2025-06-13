@@ -1,5 +1,5 @@
 // src/models/user.ts
-
+//module fixed
 import mongoose from 'mongoose';
 
 // Define the User schema
@@ -13,3 +13,4 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
